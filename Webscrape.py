@@ -5,8 +5,8 @@ import os
 
 
 URL = "https://www.ebay.ie/sch/i.html?_nkw=iphone+17"
-SAVE_PATH = "https://github.com/Harshith1004/WebScraping.git"   
-USER_DATA_DIR = "https://github.com/Harshith1004/WebScraping.git" 
+SAVE_PATH = "/Users/harshith1004/Documents/scrapped.html"   
+USER_DATA_DIR = "/Users/harshith1004/Documents/playwright_profile" 
 HEADLESS = True                         
 
 
