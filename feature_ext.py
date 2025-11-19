@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import pandas as pd
 
-html_path = "/content/ebay_page.html"
+html_path = "/Users/harshith1004/Documents/scrapped.html"
 
 with open(html_path, "r", encoding="utf-8") as f:
     html = f.read()
