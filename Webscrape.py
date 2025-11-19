@@ -42,4 +42,4 @@ async def scrape_page(url):
         await context.close()
 
 
-await scrape_page(URL)
+    await scrape_page(URL)
