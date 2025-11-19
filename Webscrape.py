@@ -42,4 +42,5 @@ async def scrape_page(url):
         await context.close()
 
 
-    await scrape_page(URL)
+if __name__ == "__main__":
+    asyncio.run(scrape_page(URL))
