@@ -7,9 +7,7 @@ import os
 URL = "https://www.ebay.ie/sch/i.html?_nkw=iphone+17"
 SAVE_PATH = "/Users/harshith1004/Documents/scrapped.html"   
 USER_DATA_DIR = "/Users/harshith1004/Documents/playwright_profile" 
-HEADLESS = True                         
-
-
+HEADLESS = False                         
 
 async def scrape_page(url):
     # Start Playwright
@@ -32,7 +30,7 @@ async def scrape_page(url):
 
         html = await page.content()
 
-        # Save HTML to a file
+
         with open(SAVE_PATH, "w", encoding="utf-8") as f:
             f.write(html)
 
